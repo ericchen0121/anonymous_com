@@ -1,0 +1,5 @@
+/* line 4, ../sass/application.scss */
+#hero-wrapper #bitmatica-hero-content h2 strong {
+  display: block;
+  text-transform: uppercase;
+}

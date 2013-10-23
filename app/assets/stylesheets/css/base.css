@@ -1,0 +1,35 @@
+/* line 1, ../bitmatica/base.scss */
+#nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+/* line 6, ../bitmatica/base.scss */
+#nav #logo {
+  left: 0;
+}
+/* line 10, ../bitmatica/base.scss */
+#nav #nav-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 15, ../bitmatica/base.scss */
+#nav #nav-links nav {
+  display: inline-block;
+}
+/* line 19, ../bitmatica/base.scss */
+#nav #nav-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 28, ../bitmatica/base.scss */
+#hero-wrapper .bitmatica-hero-image {
+  background-image: url('/app/assets/images/DISPLAY/cityscape.jpg?1382485954');
+}
+/* line 34, ../bitmatica/base.scss */
+#hero-wrapper .bitmatica-hero-content h2 strong {
+  display: block;
+  text-transform: uppercase;
+}
