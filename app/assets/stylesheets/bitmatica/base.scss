@@ -1,8 +1,21 @@
+#r_parallelogram { 
+  width: 50%; 
+  min-height: 200px; 
+  background: rgba(0, 0, 0, 0.8);
+  margin-left: -100px;
+  -webkit-transform: skew(-20deg); 
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg); 
+  transform: skew(-20deg); 
+}
+
 #nav {
   width: 100%;
   position: fixed;
   top: 0;
-
+  background-image: url(/assets/cityscape.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   #logo {
     left:0;
   }
