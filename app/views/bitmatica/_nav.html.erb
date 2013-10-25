@@ -1,17 +1,17 @@
-<div id="nav">
-  <div id='r_parallelogram'></div>
-  <div id='r_parallelogram' style="min-height: 400px;"></div>
-  <div id="span4 offset2 logo">
-    <%= link_to image_tag("LOGO.png", alt: "Bitmatica Logo"), "#" %>
+<header>
+  <div class="row-fluid" id="nav">
+    <div class="span4px offset3px" id="logo">
+      <%= link_to image_tag("LOGO.png", alt: "Bitmatica Logo"), "#" %>
+    </div>
+      <div id="nav-links">
+      <nav>
+        <%= link_to "Services", anchor: "services" %>
+        <%= link_to "Process", anchor: "process" %>
+        <%= link_to "Our Work", anchor: "ourwork" %>
+        <%= link_to "Blog", anchor: "blog" %>
+        <%= link_to image_tag("NAVIGATION/LOGIN_BUTTON.png"), "#" %>
+        <%= link_to image_tag("NAVIGATION/LETS_TALK_BUTTON.png"), "#" %>
+      </nav>
+    </div>
   </div>
-  <div id="nav-links">
-    <nav>
-      <%= link_to "Services", anchor: "services" %>
-      <%= link_to "Process", anchor: "process" %>
-      <%= link_to "Our Work", anchor: "ourwork" %>
-      <%= link_to "Blog", anchor: "blog" %>
-      <%= link_to image_tag("NAVIGATION/LOGIN_BUTTON.png"), "#" %>
-      <%= link_to image_tag("NAVIGATION/LETS_TALK_BUTTON.png"), "#" %>
-    </nav>
-  </div>
-</div>
+</header>

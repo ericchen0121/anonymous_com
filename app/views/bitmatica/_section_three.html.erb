@@ -1,0 +1,8 @@
+<article id="section_three">
+	<!-- <h2 class="span4px offset10px">What We Do</h2> -->
+	<% htmls = [] %>
+  <% @services.each do |content| %>
+    <% htmls << '<div class="span8px service bottom-hop">' + (render 'what_we_do', content: content) + "</div>" %>
+	<% end %>
+  <%= row_fluid htmls, 3 %>
+</article>

@@ -1,0 +1,23 @@
+<article id="section_one">
+  <div class="row-fluid">
+    <div id='r_parallelogram'></div>
+    <div id='r_parallelogram' style="min-height: 400px;">
+    </div>
+      <div class="top_content">
+        <div>
+          <h2>We help companies</h2>
+          <h2>Build great products</h2>
+        </div>
+        <div>
+          <div class='btn'>See How</div>
+        </div>
+      </div>
+  </div>
+</article>
+<% content_for :javascripts do %>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var s = skrollr.init();
+    });
+  </script>
+<% end %>
